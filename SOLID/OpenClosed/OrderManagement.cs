@@ -14,8 +14,18 @@ namespace OpenClosed
     //    Premium
     //}
 
+    //public class CardGenerator
+    //{
+    //    protected CardType cardType;
+    //    public CardType GetCard()
+    //    {
+
+    //    }
+    //}
+
     public abstract class CardType
     {
+
         public abstract decimal GetDiscounted(decimal price);
        
     }
